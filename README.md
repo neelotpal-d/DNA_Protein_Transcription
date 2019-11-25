@@ -2,6 +2,8 @@
 
 Program for Translation from DNA sequence to protein sequence
 
+Language: C
+
 Neelotpal Dutta and Anirudh Nistala 
 
 Date: November, 2016
