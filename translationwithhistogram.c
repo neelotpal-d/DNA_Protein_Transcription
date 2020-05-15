@@ -42,7 +42,7 @@ int main(int argc, char*argv[])
 {
 	char sequence[7000], protein[5000];
 	numberofproteins=count_and_multitounifasta(argv[1]);
-	FILE *f= fopen("output.txt","r");
+	FILE *f= fopen("temp123_file_protein.txt","r");
 	if(f==NULL)
 	{	printf("Enter a valid input file!\n");
  		exit(1);
@@ -227,7 +227,7 @@ int count_and_multitounifasta(char *file)
 		strcpy(code[i].sequence,temp1);
 	}
 	fclose(f);
-	f = fopen("output.txt","w+");
+	f = fopen("temp123_file_protein.txt","w+");
 	for(i=0; i< count;i++)
 	{
 	    if(i!=0) fprintf(f,"\n");
