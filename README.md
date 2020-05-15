@@ -32,6 +32,8 @@ This program translates DNA sequences present in an input file to their correspo
 ## Sample shell command:
 `$ myprog  inputfile.txt  outputfile.txt`
 
+**Check the number of sequences in the input file before using it**
+
 If the user does not enter any output file, the program considers a default output file.
 
 THE PROGRAM IGNORES ANY CHARACTER OTHER  THAN ALPHABETS IN THE SEQUENCE
